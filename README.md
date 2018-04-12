@@ -11,7 +11,7 @@ git config --global user.email "xxx@xxx.com"
 ssh-keygen -t rsa -C "xxx@xxx.com"
 
 3.在Github个人中心setting上添加ssh密钥，这要添加的是"id_rsa.pub"里面的公钥。
-[avatar](/user/desktop/doge.png)
+![Image text](https://github.com/Ikarows/git-use.md/blob/master/img/1.png)
 ```
 
 #### 常用命令
@@ -26,6 +26,9 @@ git add fileName
 
 # 删除文件
 git rm fileName
+
+# 查看是否有所需要提交文件
+git status
 ```
 
 #### 提交所有操作到仓库

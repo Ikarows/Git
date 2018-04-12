@@ -20,8 +20,8 @@ ssh-keygen -t rsa -C "xxx@xxx.com"
 4.在Github个人中心setting上添加ssh密钥，这要添加的是"id_rsa.pub"里面的公钥。
 
 ![Image text](https://raw.githubusercontent.com/Ikarows/git-use.md/master/img/3.png)
-<br>
-<br>
+<br/></br>
+<br/></br>
 
 #### 常用命令
 >本地新建项目先运行 git init 进行初始化
@@ -36,8 +36,8 @@ git add fileName
 # 删除文件
 git rm fileName
 ```
+<br/></br>
 
-<br>
 #### 提交所有操作到仓库
 ```bash
 # 查看是否有所需要提交文件
@@ -49,8 +49,8 @@ git commit -m "这是注释"
 # 然后再提交到远程仓库
 git push origin master
 ```
+<br/></br>
 
-<br>
 #### 常见问题
 ```bash
 # 1.解决 Git pull/push 每次都需要输入密码问题， 运行后第一次需要输入账号密码，后面就不需要了.

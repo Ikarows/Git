@@ -36,6 +36,7 @@ git add fileName
 # 删除文件
 git rm fileName
 ```
+
 <br>
 #### 提交所有操作到仓库
 ```bash
@@ -48,6 +49,7 @@ git commit -m "这是注释"
 # 然后再提交到远程仓库
 git push origin master
 ```
+
 <br>
 #### 常见问题
 ```bash

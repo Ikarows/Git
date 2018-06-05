@@ -43,8 +43,17 @@ git rm fileName
 # 查看是否有所需要提交文件
 git status
 
+# 本地仓库初始化
+git init
+
+# 添加所有文件到本地索引，命令用法：git add <file>
+git add .
+
 # 先提交到本地仓库
 git commit -m "这是注释"
+
+# 添加远程仓库地址，保存在origin变量中
+git remote add origin git@github.com:ikarows/vue-cli.git
 
 # 然后再提交到远程仓库
 git push origin master

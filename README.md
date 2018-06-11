@@ -1,4 +1,4 @@
-> Git 常用命令操作
+> Git 常用操作命令
 
 #### 安装
 1.安装Git，使用bash命令操作。 [Git下载](https://github-production-release-asset-2e65be.s3.amazonaws.com/23216272/caadf4ec-1641-11e8-8f85-577fa933ab56?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20180412%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20180412T095723Z&X-Amz-Expires=300&X-Amz-Signature=296384b7630e2aa9010c13dbfb584fb7941230e50359d2a8138ee2a71d2e03c2&X-Amz-SignedHeaders=host&actor_id=25151659&response-content-disposition=attachment%3B%20filename%3DGit-2.16.2-64-bit.exe&response-content-type=application%2Foctet-stream)

@@ -97,10 +97,10 @@ git push origin master
 # 查看提交历史
 git log
 
-#查看指定文件的提交历史
+# 查看指定文件的提交历史
 git log -p <file>
 
-#以列表的方式查看指定文件的提交历史
+# 以列表的方式查看指定文件的提交历史
 git blame <file>
 ```
 <br/></br>

@@ -116,6 +116,7 @@ git checkout HEAD <file>
 # 撤消指定的提交
 git revert <commit>
 ```
+<br/></br>
 
 #### 分支与标签
 ```bash
@@ -140,6 +141,7 @@ git tag <tagname>
 # 删除标签
 git tag -d <tagname>
 ```
+<br/></br>
 
 #### 合并与变基
 ```bash
@@ -149,6 +151,7 @@ git merge <branch>
 # 变基指定分支到当前分支
 git rebase <branch>
 ```
+<br/></br>
 
 #### 远程操作
 ```bash
@@ -176,7 +179,7 @@ git push <remote> :<branch/tag-name>
 # 上所有标签
 git push --tags
 ```
-
+<br/></br>
 
 #### 常见问题
 ```bash
@@ -187,6 +190,7 @@ git config --global credential.helper store
 在目录中隐藏的.git 目录下找到index.lock 删除即可
 
 ```
+<br/></br>
 
 #### 小结
 以上常用命令都是由网络收集整理而来，如果对您有帮助欢迎给个Star ~ Y(^_^)Y

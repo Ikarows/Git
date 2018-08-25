@@ -81,6 +81,9 @@ git mv <old> <new>
 # 删除文件
 git rm <file>
 
+# 删除文件夹
+git rm -r <file>
+
 # 停止跟踪文件但不删除
 git rm --cached <file>
 

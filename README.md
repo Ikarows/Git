@@ -90,6 +90,9 @@ git rm --cached <file>
 # 提交文件到本地仓库
 git commit -m "这是注释"
 
+# 提交所有修改到本地仓库
+git commit -a -m "这是注释"
+
 # 提交文件到远程仓库
 git push origin master
 ```

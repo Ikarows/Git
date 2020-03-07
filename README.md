@@ -98,6 +98,17 @@ git push origin master
 ```
 <br/></br>
 
+#### 本地关联远程仓库
+```bash
+cd <existing_folder>
+git init
+git remote add origin <url>
+git add .
+git commit -m "init commit"
+git push -u origin master
+```
+<br/></br>
+
 #### 查看提交历史
 ```bash
 # 查看提交历史

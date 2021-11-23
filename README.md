@@ -46,6 +46,35 @@ git push origin master
 ```
 <br/></br>
 
+#### 创建一个新的存储库
+```bash
+git clone http://192.168.0.0/gongfukeji/demo.git
+cd demo
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin master
+```
+
+#### 推送现有文件夹
+```bash
+cd existing_folder
+git init
+git remote add origin http://192.168.0.0/gongfukeji/demo.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+```
+
+#### 推送现有的 Git 存储库
+```bash
+cd existing_repo
+git remote rename origin old-origin
+git remote add origin http://192.168.0.0/gongfukeji/demo.git
+git push -u origin --all
+git push -u origin --tags
+```
+
 #### 创建版本库
 ```bash
 # 克隆远程仓库项目
